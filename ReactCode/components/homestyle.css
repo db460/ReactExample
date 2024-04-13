@@ -1,0 +1,129 @@
+.scrolling-wrapper {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+
+    .image-card{
+      border-radius: 25px;
+      margin-right: 20px;
+      background-color: grey;
+      cursor: pointer;
+      display: inline-block;
+      vertical-align: baseline;
+    }
+    
+    .image-card-placeholder{
+      border-radius: 25px;
+      margin-right: 20px;
+      background-color: grey;
+      cursor: pointer;
+      display: inline-block;
+      overflow-x: hidden;
+    }
+  }
+
+  .image-card-title{
+    border-radius: 25px;
+    margin-right: 20px;
+    max-height: 30px;
+    background-color: rgba(128, 128, 128, 0.616);
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: baseline;
+  }
+
+.store-icon{
+  width: 80%
+}
+
+.mal-icon{
+  height: 25px;
+  width: 25px;
+  border-radius: 10px;
+}
+
+.show-icon{
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.genre-icon{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.selected-genre-icon{
+  color: gold;
+}
+
+.not-selected{
+  opacity: 50%;
+}
+
+.stack {
+  position: absolute; 
+}
+
+ .row-overlay {
+  width: 100%;
+ }
+
+.angle-button {
+  opacity: 0.5;
+  cursor: pointer;
+  border-radius: 25px;
+
+}
+.angle-button:hover {
+  opacity: 1;
+  background-color: #3d4450;
+}
+
+
+.show-row{
+  min-height: 150px;
+}
+
+.genre-row{
+  text-align: start;
+  .genre-name{
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: x-large;
+  } 
+}
+
+
+
+.show-detial-image{
+  max-height: 300px;
+  max-width: 300px;
+  border-radius: 25px;
+}
+
+.rating-icon{
+  height: 25px;
+  width: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.rating-number{
+  margin-right: 10px;
+}
+
+.show-desc{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.modal-box{
+  max-height: 90vh;
+  overflow-y: auto;
+}
